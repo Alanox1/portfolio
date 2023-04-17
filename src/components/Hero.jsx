@@ -4,11 +4,9 @@ import { Link } from "react-scroll"
 export default function Hero () {
   
     return (
-        
         <Stack 
                 className="main"
-         >
-          
+         >   
          <Stack maxWidth="1280px"
              margin="0px auto"
              width="80%"
