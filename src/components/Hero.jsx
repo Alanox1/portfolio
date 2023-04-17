@@ -55,13 +55,12 @@ export default function Hero () {
 
                 </Stack>
                 <Link to="skills" spy={true} smooth={true} offset={-50} duration={500}>
-                    <Image  _hover={{ bg: "teal.600"}} 
+                    <Image  
                             cursor="pointer" 
                             width="60px" 
-                            src="./src/assets/flecha-abajo.png" 
+                            src="./flecha-abajo.png" 
                     />
                 </Link> 
-                <button onClick={() => console.log(import.meta.env.VITE_SOME_KEY)}>CLICK ME</button>
           </Stack>
          
          </Stack> 
