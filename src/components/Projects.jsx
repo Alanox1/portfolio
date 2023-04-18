@@ -46,7 +46,7 @@ export default function Projects (){
                             src={"./mercado-libre-challenge.jpg"} 
                             github={"https://github.com/Alanox1/clon-mercado_libre"} 
                             deploy={"https://clon-mercado-libre.vercel.app/"}
-                            parrafo1="Acá habia que clonar la página de detalle de un producto de mercado libre"
+                            parrafo1="Acá habia que clonar la página de detalle de un producto de mercado libre, me divertí mucho haciéndolo."
                             parrafo2 = "Esta hecha con React , ChakraUI y Sweetalert2."
                             backgroundColor="#CCC147"
                 />

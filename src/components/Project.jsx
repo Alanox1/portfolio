@@ -19,10 +19,10 @@ export default function Project ({title,src,github,deploy,parrafo1,parrafo2,back
                 <Stack direction={{base : "column", md : "row"}} justifyContent="center">
 
                     <Link href={deploy} target="_blank" width="50%" >
-                        <Button width="100%" colorScheme="none"    border="1px solid black" margin = "0px auto">See deploy</Button>
+                        <Button width="100%" colorScheme="none"    border="1px solid black" margin = "0px auto">Ver Página Terminada</Button>
                     </Link>
                     <Link href={github} target="_blank" width="50%">
-                        <Button backgroundColor="#none" colorScheme="none" width="100%" border="1px solid black"  margin="0px auto">See github</Button>
+                        <Button backgroundColor="#none" colorScheme="none" width="100%" border="1px solid black"  margin="0px auto">Ver en Github</Button>
                     </Link>
                 </Stack>
                

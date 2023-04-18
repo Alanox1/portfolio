@@ -34,7 +34,7 @@ export default function Contact (){
                         fontWeight="bold"
                         fontSize="30px"
                         textAlign="center"
-                        padding="50px">Contáctame!</Text>
+                        padding="50px">Envíame un mensaje!</Text>
                 <Stack  direction="column" 
                         justifyContent="center" 
                         alignItems="center"
