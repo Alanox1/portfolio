@@ -39,12 +39,6 @@ export default function Contact (){
                         justifyContent="center" 
                         alignItems="center"
                 >
-                    <Stack paddingBottom="50px">
-                        <Image  margin="0px auto" 
-                                width="60%"  
-                                src="https://joaquinmontes.vercel.app/_next/image?url=%2Fhello.svg&w=1920&q=75"
-                    />
-                </Stack>
                 <form ref={form} onSubmit={sendEmail} style={{display : "flex",flexDirection:"column"}}>
                     <div className="field">
                         <label >Name</label>
