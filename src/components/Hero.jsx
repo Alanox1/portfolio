@@ -16,7 +16,6 @@ export default function Hero () {
                 justifyContent="space-evenly"
                 maxH="100vh"
                 height="100vh">
-                <Text fontSize="2rem">Hola!😀</Text>
                 <Text   padding="50px 0px" 
                         textAlign="center" 
                         fontSize={{base : "25px" , sm : "38px"}}
