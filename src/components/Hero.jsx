@@ -20,7 +20,7 @@ export default function Hero () {
                         textAlign="center" 
                         fontSize={{base : "25px" , sm : "38px"}}
                 >
-                    Soy Alan Magliolini, un desarrollador frontend apasionado por la tecnología y el aprendizaje autodidacta.
+                    Soy Alan Magliolini, un desarrollador frontend apasionado por la tecnología y la programación.
                 </Text>
                 <Stack direction= {{base : "column", md : "row"}} 
                         width={{base : "100%", md : "80%"}} 
