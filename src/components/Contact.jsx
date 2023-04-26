@@ -42,11 +42,11 @@ export default function Contact (){
                 <form ref={form} onSubmit={sendEmail} style={{display : "flex",flexDirection:"column"}}>
                     <div className="field">
                         <label >Name</label>
-                        <input type="text" name="user_name" />
+                        <input type="text" name="user_name"  style={{width : "100%"}}/>
                     </div>
                     <div className="field">
                         <label>Email</label>
-                        <input type="email" name="user_email" />
+                        <input type="email" name="user_email" style={{width : "100%"}} />
                     </div>
                     <div className="field">
                         <label >Message</label>

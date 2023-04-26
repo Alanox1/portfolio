@@ -4,7 +4,7 @@ function Habilidades({especialidad,habilidadUno,habilidadDos,habilidadTres}) {
     return (
         <Stack as="article">
             <Text   as="h4" 
-                    fontSize="24px" 
+                    fontSize="40px" 
                     margin={{base : "20px auto", md : "20px 0px"}} 
                     color="#ED8936">
                 {especialidad}
@@ -12,7 +12,7 @@ function Habilidades({especialidad,habilidadUno,habilidadDos,habilidadTres}) {
             <OrderedList listStyleType="none" 
                          display="flex" 
                          flexDirection="column" 
-                         fontSize={{base : "18px",md : "26px"}} 
+                         fontSize={{base : "24px",md : "36px"}} 
                          alignItems={{base : "center", md : "start"}} gap="10px"
             >
                     <ListItem>{habilidadUno}</ListItem>

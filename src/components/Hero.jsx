@@ -13,24 +13,27 @@ export default function Hero () {
              height="100vh">
           <Stack direction="column"
                 alignItems="center"
-                justifyContent="space-evenly"
+                justifyContent="center"
                 maxH="100vh"
                 height="100vh">
+                <Text fontSize="48px">Hola! 😀</Text>
                 <Text   padding="50px 0px" 
                         textAlign="center" 
                         fontSize={{base : "25px" , sm : "38px"}}
                 >
-                    Soy Alan Magliolini, un desarrollador frontend apasionado por la tecnología y la programación.
+                    Soy Alan Magliolini, un desarrollador frontend apasionado por la tecnología y el aprendizaje autodidacta.
                 </Text>
+                <Text></Text>
                 <Stack direction= {{base : "column", md : "row"}} 
                         width={{base : "100%", md : "80%"}} 
                         justifyContent="center" 
                         alignItems="center" 
                         margin="0px auto" 
+                        paddingBottom="50px"
                 >
                     <Link style={{width:"80%"}}  to="contact" spy={true} smooth={true} offset={50} duration={500}>
                             <Button className="botones" 
-                                    padding="25px"  
+                                    padding="30px"  
                                     width="100%"
                                     colorScheme="orange"
                             >  
@@ -40,7 +43,7 @@ export default function Hero () {
                     </Link> 
                      <Link style={{width:"80%"}} to="projects" spy={true} smooth={true} offset={-50} duration={500}>
                         <Button className="botones" 
-                                padding="25px" 
+                                padding="30px" 
                                 width="100%" 
                                 colorScheme="orange" 
                                 position="relative" 
@@ -54,7 +57,7 @@ export default function Hero () {
                 <Link to="skills" spy={true} smooth={true} offset={-50} duration={500}>
                     <Image  
                             cursor="pointer" 
-                            width="60px" 
+                            width="100px" 
                             src="./flecha-abajo.png" 
                     />
                 </Link> 

@@ -4,17 +4,17 @@ import Habilidades from "../components/Habilidades"
 
     return (
         <Stack id="skills" padding="200px 0px">
-          <Text textAlign="center" fontSize={{base : "26px", sm :"40px"}} as="h2">Algunos conocimientos que tengo son:</Text>
+          <Text textAlign="center" fontSize={{base : "30px", sm :"52px"}} as="h2">Algunos conocimientos que tengo son:</Text>
           <Stack direction={{base : "column", sm : "row"}}
                justifyContent={{base : "space-between", sm : "space-around"}}>
           
-            <Habilidades especialidad="Languages"
+            <Habilidades especialidad="Lenguajes"
                          habilidadUno="JavaScript ES(2020)"
                          habilidadDos="HTML"
                          habilidadTres="CSS"
             />         
             <Habilidades especialidad="Frameworks"
-                         habilidadUno="React JS"
+                         habilidadUno="REACT JS"
                          habilidadDos="CHAKRA UI"
                          habilidadTres="REACT ROUTER DOM"
             />
